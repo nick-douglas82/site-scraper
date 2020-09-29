@@ -13,6 +13,7 @@ function fetchPageData(parsedURL) {
 
     const title = $('.ResAts__card h2').text().trim();
     meta.title = title;
+    meta.url = url;
 
     const posInfo = $('.posInfoList li');
     posInfo.each(function() {

@@ -9,7 +9,8 @@ function storeData(data) {
     employment_type: data.employment_type,
     minimum_experience: data.minimum_experience,
     type: data.type,
-    description: data.description
+    description: data.description,
+    url: data.url
   };
 
   insertCareer(career)
